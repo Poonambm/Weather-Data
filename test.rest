@@ -1,0 +1,2 @@
+https://api.openweathermap.org/data/2.5/onecall?lat=35.4141&lon=-80.6162&exclude=hourly,daily&appid=3a89a784f3afb2d09555f693cdecd4d6
+#http://api.openweathermap.org/geo/1.0/zip?zip=28027&appid=3a89a784f3afb2d09555f693cdecd4d6
