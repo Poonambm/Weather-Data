@@ -5,7 +5,7 @@ function getLatLonByZipCode(){
 
     var ZipCode = document.getElementById("zipCode").value;
    
-         fetch('http://api.openweathermap.org/geo/1.0/zip?zip='+ZipCode+'&appid='+AppId)
+         fetch('https://api.openweathermap.org/geo/1.0/zip?zip='+ZipCode+'&appid='+AppId)
         .then(response => response.json())
         .then(data => {
                  // data is the response data from weather api, validating it with the response data and keys
